@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: product
+  datasource:
+    url: jdbc:mysql:///SpringCloud_Sell?serverTimezone=UTC
+    username: root
+    password: root
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
